@@ -1,0 +1,64 @@
+/* 
+    Document   : plugin
+    Created on : 28-May-2013, 17:49:29
+    Author     : MSDesign
+    Description:
+        General styles for YouTube Channel Plugin
+*/
+
+h2.slogan {
+    padding-bottom: 10px;
+    line-height: 0.9em;
+}
+
+h2.slogan span {
+    font-size: 0.5em;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+table.info {
+    margin: 10px 0;
+    border: none;
+    font-style: italic;
+}
+
+table.widefat tr:hover {
+    background-color: rgb(222, 240, 248);
+}
+
+table.info a {
+    font-weight: bold;
+    
+    text-decoration: none;
+}
+
+.video-list { margin: 10px 0; }
+
+.pagination-above, .pagination-below {
+    background-color: transparent;
+    clear: both;
+}
+
+.mycp-submit-button {
+    color: greenyellow;
+    display: block;
+}
+
+#mycp-message {
+    display: none;
+}
+
+span.error {
+    color: red;
+}
+
+span.information {
+    color: #00CC66;
+}
+
+input.error, input:focus.error {
+    border-color: #CC0000;
+    color: red;
+}
